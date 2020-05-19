@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="ShardingConfig Summary">
+    <sch:name>ShardingConfig Summary</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Summary</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">ShardingConfig</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>ShardingId</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>ShardingId</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ShardingKey</sch:name>
+            <sch:seqNumber>500</sch:seqNumber>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>ShardingKey</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>KeyMax</sch:name>
+            <sch:seqNumber>600</sch:seqNumber>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>KeyMax</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>DataSource</sch:name>
+            <sch:seqNumber>700</sch:seqNumber>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>DataSource</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>1000</sch:seqNumber>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Description</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNo>1700</sch:seqNo>
+            <sch:buttonName>ResetAllShardings</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ResetAllShardings</sch:bmfButton>
+        </sch:BmfPageButton>
+    </sch:buttons>
+</sch:PageDefinition>

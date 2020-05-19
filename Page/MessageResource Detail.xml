@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="MessageResource Detail">
+    <sch:name>MessageResource Detail</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Detail</sch:pageType>
+    <sch:description></sch:description>
+    <sch:clientSideController></sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">MessageResource</sch:objectType>
+    <sch:fields>
+        <sch:BmfPageField>
+            <sch:name>Name</sch:name>
+            <sch:seqNumber>100</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Name</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>UserCategory</sch:name>
+            <sch:seqNumber>200</sch:seqNumber>
+            <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>User Category</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName>UserType</sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Message_US</sch:name>
+            <sch:seqNumber>250</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Message (US)</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Message_CN</sch:name>
+            <sch:seqNumber>260</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Message (CN)</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name></sch:name>
+            <sch:seqNumber>310</sch:seqNumber>
+            <sch:fieldType>Section Header Begin</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Custom Override</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>CustomMessage_US</sch:name>
+            <sch:seqNumber>320</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Custom Message (US)</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>CustomMessage_CN</sch:name>
+            <sch:seqNumber>330</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Custom Message (CN)</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Description</sch:name>
+            <sch:seqNumber>400</sch:seqNumber>
+            <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType2></sch:widgetType2>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Description</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+        </sch:BmfPageField>
+    </sch:fields>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNo>1000</sch:seqNo>
+            <sch:buttonName>Modify</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">Modify</sch:bmfButton>
+        </sch:BmfPageButton>
+    </sch:buttons>
+</sch:PageDefinition>
