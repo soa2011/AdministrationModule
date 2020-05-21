@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338328" name="ShardingRule">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344472" name="ShardingRule">
     <sch:name>ShardingRule</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>

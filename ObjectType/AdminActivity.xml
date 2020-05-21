@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338336" name="AdminActivity">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344480" name="AdminActivity">
     <sch:name>AdminActivity</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14338296" name="ImageResource">
+<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" oid="14344440" name="ImageResource">
     <sch:name>ImageResource</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
