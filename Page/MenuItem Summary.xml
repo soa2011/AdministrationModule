@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://aiaf.com/schemas" name="MenuItem Summary">
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="MenuItem Summary">
     <sch:name>MenuItem Summary</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Summary</sch:pageType>
@@ -28,7 +28,7 @@
     <sch:objectType isRef="true">MenuItem</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>SeqIndex</sch:name>
+            <sch:name>SeqNo</sch:name>
             <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -228,7 +228,7 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>ParentMenu</sch:name>
+            <sch:name>ParentMenuId</sch:name>
             <sch:seqNumber>510</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
