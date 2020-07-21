@@ -1,23 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:DomainTable xmlns:sch="http://aiaf.com/schemas" oid="14344800" name="MenuItemType">
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="MenuItemType">
     <sch:name>MenuItemType</sch:name>
     <sch:domainType>LIST_OF_VALUES</sch:domainType>
     <sch:description></sch:description>
+    <sch:domainKeys/>
     <sch:domainEntries>
         <sch:BmfDomainEntry>
             <sch:seqNumber>1</sch:seqNumber>
             <sch:displayValue>URL</sch:displayValue>
             <sch:dataValue>URL</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>2</sch:seqNumber>
-            <sch:displayValue>App Editor</sch:displayValue>
-            <sch:dataValue>App Editor</sch:dataValue>
+            <sch:displayValue>Page</sch:displayValue>
+            <sch:dataValue>Page</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
         <sch:BmfDomainEntry>
             <sch:seqNumber>3</sch:seqNumber>
-            <sch:displayValue>Other</sch:displayValue>
-            <sch:dataValue>Other</sch:dataValue>
+            <sch:displayValue>Record</sch:displayValue>
+            <sch:dataValue>Record</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
         </sch:BmfDomainEntry>
     </sch:domainEntries>
 </sch:DomainTable>
