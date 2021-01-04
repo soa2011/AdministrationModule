@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="RefreshMessage">
-    <sch:seqIndex>9</sch:seqIndex>
     <sch:name>RefreshMessage</sch:name>
     <sch:label>Refresh Message</sch:label>
     <sch:behavior>ExecuteMethod</sch:behavior>

@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName></sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName></sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -19,12 +19,13 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
+    <sch:pageAreas/>
     <sch:fields/>
     <sch:variables/>
     <sch:treeNodes>
@@ -36,29 +37,26 @@
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>State</sch:tableName>
+            <sch:tableName>NoteDiary</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>320</sch:seqIndex>
-            <sch:format>States(%s)</sch:format>
+            <sch:format>NoteDiarys(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>State</sch:tableName>
+            <sch:tableName>NoteDiary</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>330</sch:seqIndex>
             <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -69,7 +67,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -80,7 +77,6 @@
             <sch:columns>Label</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -91,7 +87,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -102,7 +97,6 @@
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -113,7 +107,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -124,7 +117,6 @@
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -135,7 +127,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -146,7 +137,6 @@
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -157,7 +147,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -168,7 +157,6 @@
             <sch:columns>ShardingId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -179,7 +167,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -190,7 +177,6 @@
             <sch:columns>ClientId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
     </sch:treeNodes>
