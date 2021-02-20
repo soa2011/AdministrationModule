@@ -59,7 +59,7 @@
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -231,7 +231,7 @@
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -288,7 +288,7 @@
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
