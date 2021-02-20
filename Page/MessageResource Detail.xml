@@ -35,6 +35,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Name</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -78,6 +79,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>UserCategory</sch:name>
@@ -86,6 +92,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>User Category</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -129,17 +136,80 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
             <sch:bmfDomain isRef="true">UserType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Message_US</sch:name>
+            <sch:name>LanguageId</sch:name>
+            <sch:seqNumber>210</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType>Language</sch:refTargetType>
+            <sch:label>LanguageId</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType></sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Message</sch:name>
             <sch:seqNumber>250</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Message (US)</sch:label>
+            <sch:label>Message</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -181,6 +251,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Message_CN</sch:name>
@@ -189,6 +264,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Message (CN)</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -232,6 +308,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name></sch:name>
@@ -240,6 +321,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header Begin</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Custom Override</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -263,7 +345,7 @@
             <sch:required>true</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -283,6 +365,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CustomMessage_US</sch:name>
@@ -291,6 +378,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Custom Message (US)</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -334,6 +422,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CustomMessage_CN</sch:name>
@@ -342,6 +435,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Custom Message (CN)</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -385,6 +479,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Description</sch:name>
@@ -393,6 +492,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -436,6 +536,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
@@ -452,4 +557,5 @@
             <sch:bmfButton isRef="true">Modify</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
+    <sch:plugins/>
 </sch:PageDefinition>

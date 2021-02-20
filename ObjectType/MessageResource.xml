@@ -4,7 +4,6 @@
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>AdministrationModule</sch:parentTypeName>
-    <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
@@ -15,7 +14,19 @@
     <sch:aggrRoot>false</sch:aggrRoot>
     <sch:changeType></sch:changeType>
     <sch:changeFields></sch:changeFields>
-    <sch:bmfRelationships/>
+    <sch:bmfRelationships>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_ONE</sch:type>
+            <sch:name>LanguageId</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>Language</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+    </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
             <sch:name>Name</sch:name>
@@ -66,7 +77,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Message_US</sch:name>
+            <sch:name>Message</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>1000</sch:length>

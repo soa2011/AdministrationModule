@@ -35,6 +35,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ShardingId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -78,6 +79,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ShardingKey</sch:name>
@@ -86,6 +92,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ShardingKey</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -129,6 +136,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>KeyMax</sch:name>
@@ -137,6 +149,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>KeyMax</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -180,6 +193,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DataSource</sch:name>
@@ -188,6 +206,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>DataSource</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -231,6 +250,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Description</sch:name>
@@ -239,6 +263,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -282,6 +307,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
@@ -298,4 +328,5 @@
             <sch:bmfButton isRef="true">ResetAllShardings</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
+    <sch:plugins/>
 </sch:PageDefinition>

@@ -35,6 +35,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Sequence No.</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -78,6 +79,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>MenuId</sch:name>
@@ -86,6 +92,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>MenuId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -129,6 +136,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Label</sch:name>
@@ -137,6 +149,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Label</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -180,6 +193,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>LinkUri</sch:name>
@@ -188,6 +206,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Link Uri</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -231,6 +250,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ParentMenuId</sch:name>
@@ -239,6 +263,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Parent Menu</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -282,6 +307,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Icon</sch:name>
@@ -290,6 +320,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Icon</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -333,6 +364,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>HotKey</sch:name>
@@ -341,6 +377,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Hot Key</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -384,6 +421,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PageId</sch:name>
@@ -392,6 +434,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>PageId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -435,6 +478,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ObjectTypeId</sch:name>
@@ -443,6 +491,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ObjectTypeId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -486,6 +535,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ControlTokenId</sch:name>
@@ -494,6 +548,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ControlTokenId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -537,6 +592,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AggrModelId</sch:name>
@@ -545,6 +605,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AggrModelId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -588,6 +649,11 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
@@ -604,4 +670,5 @@
             <sch:bmfButton isRef="true">Add</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
+    <sch:plugins/>
 </sch:PageDefinition>

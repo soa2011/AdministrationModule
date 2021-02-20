@@ -4,7 +4,6 @@
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>NA</sch:parentTypeName>
-    <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
@@ -44,6 +43,17 @@
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>ImageResource</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>-1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_MANY</sch:type>
+            <sch:name>Language</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>Language</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>
