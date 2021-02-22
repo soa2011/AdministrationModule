@@ -2,7 +2,7 @@
 <sch:BmfAppModel xmlns:sch="http://Baf.com/schemas" name="AdministrationModule">
     <sch:name>AdministrationModule</sch:name>
     <sch:aggrRootName>AdministrationModule</sch:aggrRootName>
-    <sch:revision>9</sch:revision>
+    <sch:revision>10</sch:revision>
     <sch:modelType>CUSTOM_MODEL</sch:modelType>
     <sch:historyMode>SYSTEM_HISTORY</sch:historyMode>
     <sch:baseModel>AdministrationModule</sch:baseModel>
